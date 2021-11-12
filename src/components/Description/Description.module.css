@@ -1,0 +1,27 @@
+.description{
+    position: relative;
+    z-index: 4;
+    margin-top: 5rem;
+}
+
+.title__description{
+    font-size: 163px;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.paragraph__description{
+    font-size: 20px;
+    color: #fff;
+}
+
+@media (max-width: 1200px){
+    .title__description{
+        font-size: 100px;
+    }
+
+    .paragraph__description{
+        font-size: 16px;
+    }
+}

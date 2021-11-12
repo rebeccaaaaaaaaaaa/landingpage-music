@@ -1,0 +1,45 @@
+.playlistText{
+    position: relative;
+    z-index: 4;
+    float: right;
+}
+
+.title__playlistText{
+    font-size: 55px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.paragraph__playlistText{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.button_playlistText{
+    background: #96979985;
+    border: none;
+    padding: 17px 66px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.button_playlistText:hover{
+    background: #fff;
+    color: #969799;
+}
+
+@media (max-width: 1200px){
+    .playlistText{
+        float: none;
+    }
+
+    .title__playlistText{
+        font-size: 40px;
+    }
+}

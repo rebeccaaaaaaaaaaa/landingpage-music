@@ -1,0 +1,41 @@
+.social{
+    position: relative;
+    z-index: 4;
+    bottom: 0;
+}
+
+.social__ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10rem;
+
+}
+
+.social__ul li{
+    margin-right: 36.6px;
+    cursor: pointer;
+    
+}
+
+.social__ul li img:hover{
+    transition: all .3s ease;
+    transform: scale(1.2);
+   
+}
+
+@media (max-width: 1200px){
+    .social__ul {
+        top: 3rem;
+    }
+}
+
+@media (max-width: 320px){
+    .social__ul li{
+        margin-right: 20px;
+    }
+}
