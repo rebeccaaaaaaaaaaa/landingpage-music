@@ -3,8 +3,8 @@ import style from './Description.module.css'
 const Description = () => {
     return (
         <div className={style.description}>
-            <h1 className={style.title__description}> P!nk </h1>
-            <p className={style.paragraph__description}> Alecia Beth Moore Hart, conhecida profissionalmente como Pink, é uma cantora, e compositora estadunidense, vencedora de três Grammys. Lançou o seu primeiro single, "There You Go", e seu primeiro álbum, Can't take Me Home, em 2000 pela LaFace Records </p>
+            <h1 className={style.title__description}> Marília Mendonça </h1>
+            <p className={style.paragraph__description}> Marília Dias Mendonça foi uma cantora, compositora e instrumentista brasileira, um dos nomes de maior repercussão e influência na música nacional nas décadas de 2010 e 2020 </p>
         </div>
     );
 }
